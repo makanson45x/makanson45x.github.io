@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properities -->
+  <title>Semantic-Org/Semantic-UI</title>
+
+  <!-- Always Use Same -->
+  <link rel="stylesheet" type="text/css" href="css/ui/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/image.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/transition.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/default/checkbox.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/components/github/sidebar.css">
+
+  <!--
+    These css files are pre-compiled
+    to test out gulp
+    use static.html, run gulp from semantic/, and modify theme.config or variables
+  !-->
+  <link rel="stylesheet" rel="stylesheet" type="text/css" href="css/ui/components/github/form.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/reset.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/site.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/breadcrumb.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/button.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/container.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/divider.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/dropdown.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/grid.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/header.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/input.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/label.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/list.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/menu.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/message.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/popup.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/reveal.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/segment.css">
+  <link class="themable" rel="stylesheet" type="text/css" href="css/ui/components/github/table.css">
+
+  <link rel="stylesheet" type="text/css" href="css/global.css">
+  <link rel="stylesheet" type="text/css" href="css/layouts/theme.css">
+  <link rel="stylesheet" type="text/css" href="css/layouts/home.css">
+
+</head>
+
+<body id="home" class="pushable">
+  <div class="ui theme left push sidebar">
+    <div class="ui form">
+      <h3 class="ui dividing header">Layout </h3>
+      <div class="field">
+        <div class="ui second checkbox">
+          <input type="checkbox"></input>
+          <label>Distinctive Buttons
+            <i class="tiny link question icon" data-content="Adds 'primary', 'labeled icon' and colored classes on a few buttons"></i>
+          </label>
+        </div>
+      </div>
+      <h3 class="ui dividing header">Theme</h3>
+      <div class="field">
+        <label>Global Theme</label>
+        <select class="ui theme dropdown" name="global">
+          <option value="default">Default</option>
+          <option value="amazon">Amazon</option>
+          <option value="github" selected>GitHub</option>
+          <option value="material" selected>Material</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Button</label>
+        <select class="ui theme dropdown" name="button">
+          <option value="default">Default</option>
+          <option value="amazon">Amazon</option>
+          <option value="chubby">Chubby</option>
+          <option value="github" selected>GitHub</option>
+          <option value="material">Material</option>
+          <option value="twitter">Twitter</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Menu</label>
+        <select class="ui theme dropdown" name="menu">
+          <option value="default">Default</option>
+          <option value="chubby">Chubby</option>
+          <option value="github" selected>GitHub</option>
+        </select>
+      </div>
